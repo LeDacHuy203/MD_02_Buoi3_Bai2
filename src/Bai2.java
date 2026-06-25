@@ -30,7 +30,7 @@ public class Bai2 {
 
                         // 2. Kiểm tra điểm hợp lệ
                         if (diem < 0 || diem > 10) {
-                            System.out.println("Điểm không hợp lệ. Nhập lại.");
+                            System.err.println("Điểm không hợp lệ. Nhập lại.");
                             continue;
                         }
 
